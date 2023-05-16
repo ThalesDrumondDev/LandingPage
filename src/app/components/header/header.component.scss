@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 38px;
+
+  .image {
+    display: flex;
+    img {
+      width: 296px;
+    }
+  }
+  &__container {
+    display: flex;
+    max-width: 1216px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    .menu {
+         display: flex;
+         gap: 90px;
+         align-items: center;
+      .navegation {
+        box-sizing: border-box;
+        &__links {
+          display: flex;
+          gap: 63px;
+          text-align: center;
+           a:hover {
+              text-decoration: underline;
+              transition: 0.5s ease;
+              color: #E99FB4;
+          }
+          &-sobre {
+            width: 74px;
+            height: 28px;
+          }
+          &-especialidade {
+            width: 170px;
+          }
+        }
+      }
+      .botao:hover {
+        transition: 0.5s ease;
+        background: #fcb3c8;
+        a {
+          color: #FDEEF3;
+        }
+      }
+      .botao {
+        display: flex;
+        width: 262px;
+        height: 61px;
+        border-radius: 20px;
+        justify-content: center;
+        background: #FDEEF3;
+        img {
+          width: 27px;
+        }
+        a {
+          display: flex;
+          gap: 10px;
+          padding: 14px;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
