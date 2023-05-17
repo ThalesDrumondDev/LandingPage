@@ -23,7 +23,7 @@
         font-weight: 700;
         font-size: 40px;
         line-height: 60px;
-        color: #F0BCCB;
+        color: #7B8D7A;
       }
     }
     &-info {
@@ -31,6 +31,7 @@
       flex-wrap: wrap;
       gap: 28px;
       align-self: center;
+      justify-content: center;
       margin-top: 84px;
       .box {
         display: flex;
@@ -48,7 +49,7 @@
           font-weight: 700;
           font-size: 32px;
           line-height: 48px;
-          color: #E8BAC7;
+          color: #7B8D7A;
         }
         p {
           width: 324px;
