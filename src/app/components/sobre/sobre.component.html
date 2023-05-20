@@ -12,11 +12,14 @@
         <a href=""><img src="assets/images/icons/instagram.svg" alt="">@psimedrumonds</a>
       </div>
     </div>
-  </div>
-  <div class="about__images">
+    <div class="about__images">
       <img src="assets/images/sobre-mim.jpeg" alt="">
       <div class="crp">
         <p>CRP 05/72050</p>
       </div>
     </div>
+  </div>
+  <button class="top" (click)="scrollToTop()" *ngIf="showScrollButton">
+    <span class="triangle"></span>
+</button>
 </section>

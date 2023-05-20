@@ -15,7 +15,7 @@ import { SobreComponent } from './components/sobre/sobre.component';
     HomeComponent,
     HeaderComponent,
     TratamentoComponent,
-    SobreComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,
