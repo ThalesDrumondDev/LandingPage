@@ -5,8 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
-import { TratamentoComponent } from './components/tratamento/tratamento.component';
 import { SobreComponent } from './components/sobre/sobre.component';
+import { TratamentoComponent } from './components/tratamento/tratamento.component';
 
 
 @NgModule({
