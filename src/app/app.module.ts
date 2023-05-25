@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SobreComponent } from './components/sobre/sobre.component';
 import { TratamentoComponent } from './components/tratamento/tratamento.component';
+import { FormularioComponent } from './components/formulario/formulario.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { TratamentoComponent } from './components/tratamento/tratamento.componen
     HomeComponent,
     HeaderComponent,
     TratamentoComponent,
-    SobreComponent
+    SobreComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
